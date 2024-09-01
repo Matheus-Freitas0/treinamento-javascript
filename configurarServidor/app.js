@@ -12,6 +12,7 @@ app.set('view engine', 'ejs')
 app.get('/', (req, res) => {
     res.send('Bem-vindo à Aplicação de Teste de servidor!');
 })
+
 // Inicia o servidor
 app.listen(port, () => {
     console.log(`Servidor rodando em <http://localhost>:${port}`);
