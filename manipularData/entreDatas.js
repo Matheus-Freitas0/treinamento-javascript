@@ -10,3 +10,7 @@ if (dataTeste.isBetween(dataInicial, dataFinal)) {
 else {
   console.log("A data não está entre as duas datas.");
 }
+
+if (dataTeste.isBetween(dataInicial, dataFinal, 'year', '[]')) {
+  console.log("A data está entre as duas datas no mesmo ano!");
+}
