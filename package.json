@@ -4,6 +4,7 @@
     "ejs": "^3.1.10",
     "express": "^4.19.2",
     "moment": "^2.30.1",
+    "moment-timezone": "^0.5.46",
     "sequelize": "^6.37.3"
   }
 }
